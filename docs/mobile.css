@@ -1,0 +1,272 @@
+@media(orientation: portrait){
+    body{
+        max-width: 150vw;
+        height: 150vh;
+    }
+    nav{
+        width: 100%;
+        height: 6%;
+    }
+    header{
+        width: 15%;
+        height: 87%;
+        margin-top: 2px;
+        display: flex;
+        color: rgb(219, 83, 135);
+    }
+    header h1{
+        width: 100%;
+        height: 100%; 
+    }
+    #nav-div{
+        width: 30%;
+        display: none;
+        background: gray;
+    }
+    nav button{
+        width: 20%;
+        font-size: 30px;
+        border: none;
+        background: none;
+        color: rgb(243, 81, 143);
+        display: inline;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    #profile{
+        right: 0;
+        width: 50%;
+        height: 0%;
+        border-radius: 5px;
+        overflow-x: hidden;
+        opacity: 0.96;
+        transition: 0.7s;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #outside-p{
+        height: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+        color: rgba(236, 141, 157,0.57);
+    }
+    aside{
+        width: 90%;
+        height: 20%;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+    #aside-content-container{
+        width: 95%;
+        height: 97%;
+        margin: 0 auto;
+    }
+    section{
+        width: 97%;
+        height: 98%;
+        margin: 3% auto;
+        display: flex;
+        flex-direction: column;
+        background: ghostwhite;
+    }
+    #loading{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    #transaction-content-div{
+        width: 100%;
+        height: 87%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #buy-property-div{
+        width: 98%;
+        height: 6%;
+        margin: 1% auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #buy-property-div h3{
+        font-size: 16px;
+    }
+    #buy-property-div  button{
+        width: 47%;
+        height: 70%;
+        font-size: 16.5px;
+        font-weight: bold;
+        border: 2px solid rgb(204, 46, 86);
+        border-radius: 8px;
+        background: none;
+        color: rgb(204, 46, 86);
+    }
+    #details-content-div{
+        width: 97%;
+        margin: 1% auto;
+        height: 89.7%;
+    }
+    hr{
+        width: 95%;
+        margin: 0 auto;
+    }
+    #first{
+        width: 100%;
+        height: 40%;
+    }
+    #first-1st-div{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-1st-subdivs h3{
+        font-size: 16px;
+    }
+    #first-2nd-div{
+        height: 25%;
+    }
+    #first-2nd-bolbdiv{
+        width: 12%;
+        height: 50%;
+        margin-top: 6.5%;
+    }
+    #first-2nd-txtdiv{
+        width: 87%;
+        font-size: 11px;
+        font-weight: bolder;
+    }
+    #first-2nd-bolbdiv span{
+        width: 60%;
+        height: 60%;
+    }
+    #first-2nd-bolbdiv span img{
+        width: 78%;
+        height: 78%;
+    }
+    #first-2nd-bolbdiv span span{
+        background: black;
+        width: 40%;
+        height: 10%;
+    }
+    #first-3rd-div{
+        width: 95%;
+        height: 55%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 3% auto;
+    }
+    .first-3rd-subdiv{
+        width: 100%;
+        height: 37%;
+        display: flex;
+        justify-content: space-between;
+    } 
+    .first-3rd-subdiv span{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .first-3rd-subdiv p{
+        font-weight: 600;
+        color: gray;
+    }
+    #second{
+        width: 97%;
+        height: 10%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bolder;
+    }
+    #yes-no-div{
+        width: 20%;
+        height: 30%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+    #third{
+        width: 100%;
+        height: 45%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #acc-div{
+        width: 100%;
+        height: 95%;
+    }
+    .acc-subdiv{
+        width: 100%;
+        height: 20%;
+    }
+    .icon-amount{
+        width: 30%;
+        height: 80%;
+    }
+    .icon{
+        width: 32%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: rgba(98, 216, 143, 0.6);
+    }
+    .amount{
+        width: 55%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 13px;
+        color: rgb(44, 206, 144);
+    }
+    .reports-date{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .reports{
+        width: 30%;
+        height: 60%;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+    .date{
+        width: 60%;
+        height: 70%;
+        display: flex;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(219, 83, 135);
+        border-radius: 3px;
+        font-size: 13px;
+        font-weight: bolder;
+        background: rgba(236, 141, 157,0.57);
+    }
+}
